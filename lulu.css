@@ -1,0 +1,501 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.logo{
+    width: 95px;
+    margin-left: 270px;
+    
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    margin-left: -48px;
+
+}
+ul .nav-list-main{
+    margin-left: 50px;
+    color: #000083;
+    font-family: museo-sans,sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 1.5rem;
+    transition: transform .2s;
+} 
+.right-section{
+    
+    padding-right: 200px;
+
+}
+.nav-icons-div{
+   
+
+}
+ul .main-nav-icon{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+.nav-icons{
+    width: 45px;
+    
+}
+.nav-icons img{
+    width: 25px;
+
+
+}
+.main-banner{
+    width: 1903px;
+    height: 720px;
+    background-image: url("./images/1-banner.webp");
+    display: flex;
+    background-size: 1903px 720px;
+    justify-content: center;
+
+
+}
+.banner-text{
+    padding-top: 80px;
+    padding-left: 50px;
+    display: flex;
+    
+}
+.first-text h1{ 
+    position: relative;
+    font-family: "museo-sans", sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+    font-size: 48px;
+    color: white;
+    padding-left: 130px;
+    margin-bottom: -20px;
+
+}
+.first-text p{
+    color: aliceblue;
+    font-family: "museo-sans", sans-serif;
+    text-align: center;
+    font-size: 24px;
+    text-decoration: none;
+    letter-spacing: .5px;
+    line-height: 30px;
+
+} 
+/* .banner2{ 
+    width: 100%;
+    max-height: 615.66px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.banner2-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    margin: 21.44px opx;
+}
+
+
+
+.banner2-heading h1{
+    font-size: 32px;
+    font-family: "museo-sans", sans-serif;
+    font-weight: 900;
+}
+ .banner2-colums-aling{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 300px;
+    margin-top: 0;
+
+ }
+ .banner2-box{
+    width: 348px;
+    height: 343.98px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+ }
+.box-img{
+    width: 164px;
+    height: 164px;
+
+
+}
+.banner2-box h1{
+
+    width: 266.19px;
+    height: 27.59;
+    padding: 0;
+    font-size: 24px;
+    font-family: "museo-sans", sans-serif;
+    margin: 0px 0px 8px;
+}
+.banner2-box p{
+    font-size: 1.25rem;
+    text-align: center;
+    line-height: 1.4;
+    font-weight: 300;
+    color: rgba(10,16,26,.6);;
+
+
+}
+.banner2-box button{
+    display: inline-block;
+    background: #000083;
+    color: white;
+    font-family: museo-sans,sans-serif;
+    border: none;
+    height: 40px;
+    font-size: 1rem;
+    padding: 12px 16px;
+    
+}
+
+.banner2-grid{
+    margin-to;
+ } */
+
+ .banner2-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    margin: 21.44px opx;
+}
+.banner2-heading h1{
+    font-size: 32px;
+    font-family: "museo-sans", sans-serif;
+    font-weight: 900;
+    color: #0a101a;
+}
+
+
+ .banner2{
+    display: flex;
+    justify-content: center;
+    height: 615px;
+        
+ }
+ .box1{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 348px;
+    height: 343.98px;
+    
+ }
+ .box1 h1{
+    width: 298.19px;
+    height: 27.59;
+    font-size: 24px;
+    font-family: "museo-sans", sans-serif;
+    text-align: center;
+
+ }
+ .box1 p{
+    font-size: 1.25rem;
+    text-align: center;
+    line-height: 1.4;
+    letter-spacing: .5px;
+    font-weight: 400;
+    color: rgba(10,16,26,.6);
+
+ }
+ .box1 button{
+    display: inline-block;
+    background: #000083;
+    color: white;
+    font-family: museo-sans,sans-serif;
+    border: none;
+    height: 40px;
+    font-size: 1rem;
+    padding: 12px 16px;
+    border-radius: 5px;
+    
+ }
+ .box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+    margin-bottom: 150px;
+ }
+ .container1{
+    background-image: url(./images/lulu-direct-image-banner-web.webp);
+    width: 1360px;
+    background-size: 1360px 320px;
+    height: 320px;
+ }
+ .container2{
+    background-image: url(./images/lulu-account-registration-image-banner-desktop.webp);
+    width: 1360px;
+    background-size: 1360px 320px;
+    height: 320px;
+ }
+ .container3{
+    background-image: url(./images/lulu-guides-and-templates-image-banner.webp);
+    width: 1360px;
+    background-size: 1360px 320px;
+    height: 320px;
+ }
+ .container4{
+    background-image: url(./images/lulu-pricing-calculator-image-banner-desktop.webp);
+    width: 1360px;
+    background-size: 1360px 320px;
+    height: 320px;
+ }
+ .container5{
+    background-image: url(./images/lulu-bookstore-image-banner.webp);
+    width: 1360px;
+    background-size: 1360px 320px;
+    height: 320px;
+ }
+ 
+ .box2 h1{
+    font-family: museo-sans,sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+    color: #ffff;
+    padding-left: 40px;
+ }
+ .box2 h4{
+    padding-left: 40px;
+    color: #d3dbe1;
+    font-family: "museo-sans", sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+    letter-spacing: .5px;
+    line-height: 32px;
+    font-weight: 100;
+ }
+ .box2 button{
+    display: inline-block;
+    background: #000083;
+    color: white;
+    font-family: museo-sans,sans-serif;
+    border: none;
+    height: 40px;
+    font-size: 1rem;
+    padding: 12px 16px;
+    border-radius: 5px;
+    margin-left: 40px;
+
+
+ }
+ .container4 button{
+ 
+ background-color: #22b5f0;
+ }
+ button:hover{
+    background-color: #4442ca;
+ }
+ .nav-list-main:hover{
+    transform: scale(1.1);
+    
+ }
+ .nav-icons:hover{
+    transform: scale(1.3);
+ }
+ .footer-box{
+    background-color: #18263d;
+    padding-top: 3rem;
+    height: 339px;
+}
+.footer-box2{
+    height: 170px;
+    padding-top: -10px;
+    
+}
+.footer-box2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -54px;
+}
+.footer-box2 ul {
+    color: hsla(0,0%,100%,.8);
+    
+
+}
+.footer-box2 li{
+    padding-right: 80px;
+    font-family: museo-sans,sans-serif;
+}
+.footer-box2 h4{
+    padding-left: 40px;
+    color: #d3dbe1;
+    font-family: "museo-sans", sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    letter-spacing: .5px;
+    line-height: 20px;
+    font-weight: 100;
+    
+}
+.footer-box3{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-left: 159px;
+    padding-right: 156px;
+    margin-top: -37px;
+}
+.footer-box3 ul{
+    padding-right: 453px;
+}
+.footer-box3 li{
+    background-color: #aeb6c2;
+    border-radius: 62px;
+    width: 34px;
+    height: 34px;
+    padding-top: 6px;
+    margin: 12px;
+    padding-right: 22px;
+    padding-left: 5px;
+    
+    
+}
+.footer-box3 img{
+    width: 40px;
+    padding-right: 15px;
+}
+.box2:hover{
+    transform: scale(1.1);
+}
+
+.footer-box3 input{
+    width: 347px;
+    height: 50px;
+    border: 1px solid transparent;
+    color: #0a101a;
+    font-family: museo-sans,sans-serif;
+    font-size: 1rem;
+    padding-left: 24px;
+}
+.footer-box3 button{
+    height: 52px;
+    width: 78.19px;
+    background-color: #22b5f0;
+    border: none;
+    border-left: #0a101a;
+}
+
+
+.last-footer{
+    background-color: #18263d;
+    border-top: 1px solid #37455c;
+    display: flex;
+    align-items: center;
+    padding-left: 299px;
+}
+    
+
+svg{
+   
+    fill: #aeb6c2;
+}
+.last-footer ul{
+    display: flex;
+
+}
+
+.footer-svg1{
+    width: 100px;
+    margin-right: 25px;
+}
+
+.footer-svg2{
+    width: 135px;
+    margin-right: 25px;
+}
+.footer-svg3{
+    width: 79px;
+    margin-right: 25px;
+}
+
+.footer-svg4{
+    width: 38px;
+    margin-left: 15px;
+}
+.copywrite{
+    display: flex;
+    align-items: center;
+    padding-left: 465px;
+
+}
+.leagel-info a{
+    text-decoration: none;
+    color: #ffff;
+}
+.leagel-info li{
+    padding-left: 10px;
+    font-size: 15px;
+}
+.copywrite p{
+    color: hsla(0,0%,100%,.6);
+    width: 100%;
+    font-size: 12px;
+    padding-left: 10px;
+    letter-spacing: .5px;
+}
+
+.footer-box2 li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    }
+.footer-box3 li:hover{
+    cursor: pointer;
+    background-color: #ffff;
+    }
+.last-footer .copywrite li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    }
+.footer-svg1:hover{
+    
+    fill:#ffff;
+}
+.footer-svg2:hover{
+    
+    fill:#ffff;
+}
+.footer-svg3:hover{
+    
+    fill:#ffff;
+}
+.footer-svg4:hover{
+    
+    fill:#ffff;
+}
